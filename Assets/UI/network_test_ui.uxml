@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:GroupBox style="height: 100%; max-width: 100%; max-height: 100%; width: 100%; justify-content: flex-start; flex-direction: column; align-items: flex-start;">
+        <ui:GroupBox style="height: 50%; width: 30%; flex-direction: column; align-items: stretch; justify-content: flex-start; margin-left: 70%;">
+            <ui:Button text="SERVER" display-tooltip-when-elided="true" name="server" style="-unity-text-align: lower-center;" />
+            <ui:Button text="HOST" display-tooltip-when-elided="true" name="host" style="-unity-text-align: lower-center;" />
+            <ui:Button text="CLIENT" display-tooltip-when-elided="true" name="client" style="-unity-text-align: lower-center;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>
